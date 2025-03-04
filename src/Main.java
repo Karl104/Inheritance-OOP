@@ -3,5 +3,13 @@
 public class Main {
     public static void main(String[] args) {
 
+        //single
+       System.out.println("======== Single Inheritance ===========");
+        Dog dog = new Dog(); // Now Java can find Dog class
+        System.out.println(dog.name);
+        dog.makeSound();
+        dog.bark();
+
+
     }
 }
