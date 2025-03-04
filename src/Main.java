@@ -18,6 +18,19 @@ public class Main {
         cat.walk();
         cat.meow();
 
+        // Hierarchical
+
+        System.out.println("\n==========  Hierarchical Inheritance ========");
+        Cow cow = new Cow();
+        cow.Makesound();
+        cow.moo();
+
+        Horse horse = new Horse();
+        horse.Makesound();
+        horse.neigh();
+
+
+
 
 
     }
