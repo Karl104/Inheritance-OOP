@@ -5,7 +5,7 @@ public class Main {
 
         //single
        System.out.println("======== Single Inheritance ===========");
-        Dog dog = new Dog(); // Now Java can find Dog class
+        Dog dog = new Dog();
         System.out.println(dog.name);
         dog.makeSound();
         dog.bark();
